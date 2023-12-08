@@ -8,7 +8,7 @@ Resources:
       Runtime: nodejs16.x
       CodeUri: .
       Description: A html to pdf converter lambda function
-      MemorySize: 128
+      MemorySize: 1024
       Timeout: 30
       Environment:
         Variables:
